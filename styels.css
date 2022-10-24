@@ -1,5 +1,21 @@
-canvas{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.canvas{
     height: 800px;
-    width: auto;
+    /* width: auto; */
+    height: 1440px;
     background-color: #F2F2F2;
+    /* background-color: black; */
 }
+object{
+    height:1018px;
+    width: 510px;
+    border-radius: 255px;
+    background-color:#E844FF;
+    margin-top: -318px;
+    margin-left:-100px;
+}
+
