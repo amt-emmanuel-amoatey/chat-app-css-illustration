@@ -16,22 +16,37 @@ object{
     border-radius: 255px;
     background-color:#E844FF;
     margin-top: -318px;
-    margin-left: -90px;
-    
+    margin-left: -90px;   
 }
 
-.Description{
-    margin-left: 735px;
-    margin-top: -309px;
-    width:445px;
-    height: 183px;
+.Opaque-Oval{
+    height: 1018px;
+    width: 510px;
+    border-radius: 255px;
+    background-color: blue;
+    margin-top: -1137px;
+    margin-left: -1115px;
 }
 
 .Description h4{
-    color:  #3E2753;
+    width:445px;
+    height: 47px;
+    margin-top: -309px;
+    margin-left: 735px;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 47px;
+    color: #3E2753;
 }
 .Description p{
-    color:#3E2753;
+    width: 450px;
+    height: 112px;
+    line-height: 28px;
+    font-size: 18.5px;
+    color: #A39DA9;
+    font-weight: 400;
+    margin-left: 735px;  
 }
 
 
