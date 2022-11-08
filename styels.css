@@ -9,17 +9,17 @@
 main{
   background-color: aquamarine;
   width: 1440px;
-  height: 800px;
+  /* height: 800px; */
 }
 
-canvas{
+.canvas{
   background-image:  linear-gradient( to top left, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
   width: 510px;
   height: 1018px;
   margin-top: -318px;
   margin-left: -90px;
   border-radius:255px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .Description h4 {
@@ -47,5 +47,16 @@ margin-left: 735px;
 
 .Description{
   margin-top:-500px;
+}
+
+.container-phone{
+  background-color: red;
+  width: 247px;
+  height: 505px;
+  margin-left: 363px;
+  margin-top: -300px;
+  border-radius: 20px;
+  background-color: white;
+  
 }
 
