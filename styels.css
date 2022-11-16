@@ -69,34 +69,28 @@ main {
 .phone-header .arrow  {
   /* margin-left: 15.5px; */
   /* margin-top: 37px; */
-  top: 35px;
+  top: -6px;
   left: 10px;
-  font-size: 15px;
+  /* font-size: 15px; */
   position: relative;
-  color: #ffffff;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
-.avatar {
+.avatar  {
   /* position: relative; */
-  /* top: 12px; */
-  /* left: 35px; */
-  /* /* width: 24px; */
+  /* top: 12px;
+  left: 35px; */
+  width: 24px;
   height: 24px;
   border:1px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 100%;
-  margin-left: 25px;
-  margin-top: 15px; 
+  margin-top: 35px;
+ margin-left: 15px;
+  /* margin-left: 10px; */
+  /* margin-top: 40px;  */
 }
 
-.avatar {
-  /* display: block; */
-  /* border-radius: 50%; */
-  /* border: 1px solid #ffffff; */
-  /* width: 24px; */
-}
+
 
 .Description h4 {
   width: 445px;
