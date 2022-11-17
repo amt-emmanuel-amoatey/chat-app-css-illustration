@@ -248,7 +248,7 @@ border-radius: 10px 10px 4px 10px;
   position: absolute;
 height: 22px;
 left: 6.25%;
-right: 6.25%;
+/* right: 6.25%; */
 top: calc(50% - 22px/2);
 font-family: 'Rubik';
 font-style: normal;
@@ -259,8 +259,36 @@ color: #6E5D7E;
 }
 
 .phone-screen .chat4 {
+  height: 23px;
+width: 80px;
+  position: absolute;
+/* left: 7%; */
+right: 7%;
+top:  calc(60.5% - 22px/2);
+/* bottom: 0%; */
+/* background: #FFFFFF; */
+background-color: #3e2753;
+box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+border-radius: 10px 10px 4px 10px;
+}
+
+.phone-screen .chat4 p{ 
+  position: absolute;
+height: 11px;
+left: 10%;
+right: 10%;
+top: calc(50% - 11px/2);
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 11px;
+color: #6E5D7E;
   
 }
+
+
 .phone-screen .chat5 {
 }
 .Description h4 {
