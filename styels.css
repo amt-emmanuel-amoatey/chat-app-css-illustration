@@ -133,7 +133,7 @@ main {
 .phone-screen .chat1 {
   width: 128px;
   height: 34px;
-  /* position: absolute; */
+  position: absolute;
   /* left: 100%; */
   /* right: -100%; */
   background: #eee5f4;
@@ -142,21 +142,38 @@ main {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.phone-screen .chat1 p{
+.phone-screen .chat1 p {
   width: 112px;
   height: 22px;
-left: 6.25%;
-right: 6.25%;
-top: calc(50% - 22px/2);
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 8px;
-line-height: 11px;
-color: #9341C8;
-
+  left: 6.25%;
+  right: 6.25%;
+  top: calc(50% - 22px / 2);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  color: #9341c8;
 }
 
+.phone-screen .chat2 {
+  width: 128px;
+  height: 34px;
+  left: 100%;
+  right: -100%;
+  margin-top:21%;
+  /* background: #eee5f4; */
+  background-color: red;
+  border-radius: 10px 10px 4px 10px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.phone-screen .chat3 {
+}
+.phone-screen .chat4 {
+}
+.phone-screen .chat5 {
+}
 .Description h4 {
   width: 445px;
   height: 47px;
