@@ -242,7 +242,24 @@ box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
 border-radius: 10px 10px 4px 10px;
 
 }
+
+
+.phone-screen .chat3 p{
+  position: absolute;
+height: 22px;
+left: 6.25%;
+right: 6.25%;
+top: calc(50% - 22px/2);
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 11px;
+color: #6E5D7E;
+}
+
 .phone-screen .chat4 {
+  
 }
 .phone-screen .chat5 {
 }
