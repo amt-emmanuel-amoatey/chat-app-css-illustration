@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  
 }
 
 main {
@@ -186,7 +188,59 @@ main {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+.DogPhotos{
+  position: absolute;
+  width: 136px;
+  height:40px ;
+  top: 0;
+  left: -10px;
+
+
+}
+
+ .DogPhoto1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 100px;
+  top: 200px;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px;
+}
+
+.DogPhoto2{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 150px;
+top: 200px;
+box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+border-radius: 10px;
+}
+
+.DogPhoto3{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 200px;
+top: 200px;
+box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+border-radius: 10px;
+}
+
 .phone-screen .chat3 {
+  position: absolute; 
+/* background: #FFFFFF; */
+width: 128px;
+height: 34px;
+left: 40%;
+right: 0%;
+top: 50%;
+/* bottom: 0%; */
+background-color: yellow;
+box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+border-radius: 10px 10px 4px 10px;
+
 }
 .phone-screen .chat4 {
 }
