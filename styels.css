@@ -156,7 +156,6 @@ main {
   line-height: 11px;
   color: #9341c8;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  
 }
 
 .phone-screen .chat2 {
@@ -164,13 +163,28 @@ main {
   height: 34px;
   left: 100%;
   right: -100%;
-  margin-top:21%;
+  margin-top: 21%;
   /* background: #eee5f4; */
   background-color: red;
   border-radius: 10px 10px 4px 10px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+.phone-screen .chat2 p {
+  position: absolute;
+  width: 112px;
+  height: 22px;
+  left: 6.25%;
+  right: 6.25%;
+  top: calc(50% - 22px / 2);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  color: #9341c8;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
 
 .phone-screen .chat3 {
 }
