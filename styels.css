@@ -12,6 +12,7 @@ main {
   overflow: hidden;
 }
 
+/* Phone Body */
 .Phone {
   width: 247px;
   height: 505px;
@@ -53,7 +54,7 @@ main {
   margin: 0 0 0 -18px;
   /* top: 148px; */
 }
-
+/* Phone header & Profile */
 .phone-header {
   width: 228px;
   height: 66px;
@@ -130,6 +131,7 @@ main {
   position: absolute;
 }
 
+/* Chat Display */
 .phone-screen .chat1 {
   width: 128px;
   height: 34px;
@@ -186,6 +188,7 @@ main {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+/* Dog Photos */
 .DogPhotos {
   position: absolute;
   width: 136px;
@@ -224,6 +227,7 @@ main {
   border-radius: 10px;
 }
 
+/* Chat Display */
 .phone-screen .chat3 {
   position: absolute;
   /* background: #FFFFFF; */
@@ -307,13 +311,15 @@ main {
   color: #9341c8;
 }
 
+/* Prices Display */
 .Chat-Price1 {
   width: 160px;
   height: 32px;
   box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
   border-radius: 10px 10px 4px 10px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  background-color: brown;
+  /* background-color: brown; */
+  background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
   margin-top: 3.5%;
 }
 
@@ -344,6 +350,23 @@ left: 42.5%;
 top: calc(50% - 11px/2 + 0.5px);
 color: #FFFFFF;
 }
+
+.Chat-Price2{
+  width: 160px;
+  height: 32px;
+  background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+border-radius: 10px 10px 4px 10px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+margin-top:4%;
+}
+
+
+
+
+
+
+
 
 
 .Description h4 {
