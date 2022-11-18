@@ -263,7 +263,7 @@ color: #6E5D7E;
 width: 80px;
   position: absolute;
 /* left: 7%; */
-right: 7%;
+right: 7.5%;
 top:  calc(60.5% - 22px/2);
 /* bottom: 0%; */
 /* background: #FFFFFF; */
@@ -278,19 +278,36 @@ height: 11px;
 left: 10%;
 right: 10%;
 top: calc(50% - 11px/2);
-
 font-family: 'Rubik';
 font-style: normal;
 font-weight: 400;
 font-size: 8px;
 line-height: 11px;
 color: #6E5D7E;
-  
 }
-
 
 .phone-screen .chat5 {
+  height: 45px;
+width: 128px;
+/* position: absolute; */
+/* background: #EEE5F4; */
+background-color: green;
+border-radius: 10px 10px 4px 10px;
+/* left: 100%;
+  right: -100%; */
+  margin-top: 85%;
+transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+
+
+
+
+
+
+
+
+
+
 .Description h4 {
   width: 445px;
   height: 47px;
