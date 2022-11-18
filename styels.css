@@ -296,8 +296,7 @@ main {
   /* background: #EEE5F4; */
   background-color: green;
   border-radius: 10px 10px 4px 10px;
-  /* left: 100%;
-  right: -100%; */
+  left: 7%;
   top: 61%;
   /* margin-top: 85%; */
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -329,6 +328,7 @@ main {
   /* margin-top: 3.5%; */
   position: absolute;
   top: 71.5%;
+  left: 7%;
 }
 
 .Chat-Price1 .circle {
