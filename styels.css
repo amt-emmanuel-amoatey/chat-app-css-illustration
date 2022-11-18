@@ -328,7 +328,7 @@ main {
   background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
   /* margin-top: 3.5%; */
   position: absolute;
-  top: 71%;
+  top: 71.5%;
 }
 
 .Chat-Price1 .circle {
@@ -383,7 +383,7 @@ main {
   border-radius: 10px 10px 4px 10px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
   position: absolute;
-  top: 79%;
+  top: 79.5%;
   /* margin-top: 4%; */
 }
 
