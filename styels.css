@@ -361,6 +361,24 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 margin-top:4%;
 }
 
+.Chat-Price2 .circle2{
+  height: 12px;
+  width: 12px;
+  box-sizing: border-box;
+  background-color: tomato;
+  position: absolute;
+  left: 85%;
+  /* right: 87.5%; */
+  top: 31.25%;
+  /* bottom: 31.25%; */
+  border: 1px solid #e472ff;
+  border-radius: 100%;
+
+
+}
+
+
+
 
 
 
