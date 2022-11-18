@@ -307,6 +307,35 @@ main {
   color: #9341c8;
 }
 
+.Chat-Price1 {
+  width: 160px;
+  height: 32px;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px 10px 4px 10px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background-color: brown;
+  margin-top: 3.5%;
+}
+
+.Chat-Price1 .circle {
+  height: 12px;
+  width: 12px;
+  box-sizing: border-box;
+  background-color: tomato;
+  position: absolute;
+  left: 85%;
+  /* right: 87.5%; */
+  top: 31.25%;
+  /* bottom: 31.25%; */
+  border: 1px solid #e472ff;
+  border-radius: 100%;
+}
+
+.Chat-Price1 .duration{
+
+}
+
+
 .Description h4 {
   width: 445px;
   height: 47px;
