@@ -435,11 +435,11 @@ main {
 .Chat-Space {
   width: 213px;
   height: 33.91px;
-  /* position: absolute; */
+  position: absolute;
   /* left: 0%; */
   /* right: 0%; */
-  /* top: 0%; */
-  bottom: 0.27%;
+  top: 87.5%;
+  /* bottom: 0.27%; */
   /* background: #ffffff; */
   background-color: deeppink;
   border-radius: 16.9544px;
@@ -451,7 +451,7 @@ main {
 /* height: 11px; */
 /* left: 9.12%; */
 /* right: 47.58%; */
-/* top: calc(50% - 11px/2 + 1.56px); */
+
 
 font-family: 'Rubik';
 font-style: normal;
