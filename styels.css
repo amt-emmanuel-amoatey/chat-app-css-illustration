@@ -432,7 +432,6 @@ main {
 }
 
 /* Message Space */
-
 .Chat-Space {
   width: 213px;
   height: 33.91px;
@@ -479,6 +478,28 @@ left: 86.38%;
 right: 2.22%;
 top: 14.25%;
 bottom: 14.52%;
+}
+
+.submit-arrow{
+  width: 6.07px;
+  height: 9.69px;
+  position: absolute;
+left: 35%;
+right: 35%;
+top: 30%;
+/* top: 25.62%; */
+/* align-items: center; */
+/* bottom: 35.89%; */
+/* bottom: 35%; */
+/* left: 90.94%;
+right: 6.21%;
+top: 35.62%;
+bottom: 35.89%; */
+
+/* background: #FFFFFF; */
+
+
+
 }
 
 
