@@ -225,14 +225,12 @@ main {
 /* Chat Display */
 .phone-screen .chat3 {
   position: absolute;
-  /* background: #FFFFFF; */
+  background: #FFFFFF;
   width: 128px;
   height: 34px;
   left: 40.5%;
   right: 0%;
   top: 45%;
-  /* bottom: 0%; */
-  background-color: yellow;
   box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
   border-radius: 10px 10px 4px 10px;
 }
@@ -241,7 +239,6 @@ main {
   position: absolute;
   height: 22px;
   left: 6.25%;
-  /* right: 6.25%; */
   top: calc(50% - 22px / 2);
   font-family: "Rubik";
   font-style: normal;
@@ -255,12 +252,9 @@ main {
   height: 23px;
   width: 80px;
   position: absolute;
-  /* left: 7%; */
   right: 7.5%;
   top: 53%;
-  /* bottom: 0%; */
-  /* background: #FFFFFF; */
-  background-color: #3e2753;
+  background: #FFFFFF;
   box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
   border-radius: 10px 10px 4px 10px;
 }
