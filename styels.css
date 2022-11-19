@@ -2,17 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
 main {
-  background-color: aquamarine;
+  background: #F2F2F2;
+  overflow: hidden;
   /* width: 1440px;
   height: 800px; */
-  align-content: center;
-   overflow-x: hidden;
-   overflow-y: hidden;
-  /* overflow: hidden; */
+  /* align-content: center; */
+   /* overflow-x: hidden;
+   overflow-y: hidden; */
 }
 
 /* Phone Body */
@@ -20,7 +19,6 @@ main {
   width: 247px;
   height: 505px;
   margin-top: 75px;
-  /* margin-left: 350px; */
   margin-left: 271.5px;
   background-color: #ffffff;
   box-shadow: 0 30px 60px 10px rgba(62, 39, 83, 0.251202);
