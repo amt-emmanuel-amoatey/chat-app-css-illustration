@@ -48,9 +48,8 @@ main {
   left: 50px;
   position: relative;
   bottom: 66px;
-  z-index: 1;
   border-radius: 0px 0px 14px 14px;
-  margin: 0 0 0 -18px;
+  margin: 0 0 0 -20px;
 }
 
 /* Phone header & Profile */
@@ -63,8 +62,8 @@ main {
   );
   box-shadow: 0px 0px 13px rgba(62, 39, 83, 0.251202);
   border-radius: 20px 20px 6px 6px;
-  /* z-index: 1; */
   margin: -10px 0 0 -19px;
+ 
 }
 
 .phone-header .arrow {
@@ -487,35 +486,18 @@ main {
   margin-top: -500px;
 }
 
-.container-phone {
-  width: 247px;
-  height: 505px;
-  margin-left: 363px;
-  margin-top: -300px;
-  border-radius: 30px;
-  background-color: #ffffff;
-}
 
-.wrapper-phone {
-  background-color: rgba(62, 39, 83, 0.2512);
-  width: 228px;
-  height: 483px;
-  margin-top: -500px;
-  margin-left: 372.5px;
-}
+
+
 /* OVAL SHAPES */
 .Purple-Oval {
-  /* width: 510px; */
-  /* height:1018px; */
+ 
   margin-top: -580px;
   margin-left: -90px;
-  /* background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%); */
-  /* border-radius: 255px; */
-  /* z-index: 1; */
+
 }
 .White-Oval {
   margin-top: -500px;
   margin-left: 1115px;
-  /* left: 100px;
-  position: absolute; */
+ 
 }
