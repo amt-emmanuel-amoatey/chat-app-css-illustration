@@ -277,12 +277,10 @@ main {
   height: 45px;
   width: 128px;
   position: absolute;
-  /* background: #EEE5F4; */
-  background-color: green;
+  background: #EEE5F4;
   border-radius: 10px 10px 4px 10px;
   left: 7%;
   top: 61%;
-  /* margin-top: 85%; */
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -307,9 +305,7 @@ main {
   box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
   border-radius: 10px 10px 4px 10px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  /* background-color: brown; */
   background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
-  /* margin-top: 3.5%; */
   position: absolute;
   top: 71.5%;
   left: 7%;
@@ -319,12 +315,9 @@ main {
   height: 12px;
   width: 12px;
   box-sizing: border-box;
-  background-color: tomato;
   position: absolute;
   left: 85%;
-  /* right: 87.5%; */
   top: 31.25%;
-  /* bottom: 31.25%; */
   border: 1px solid #e472ff;
   border-radius: 100%;
 }
