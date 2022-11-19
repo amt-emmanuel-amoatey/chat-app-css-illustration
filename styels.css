@@ -7,11 +7,12 @@
 
 main {
   background-color: aquamarine;
-  width: 1440px;
-  height: 800px;
-  /* align-content: center; */
-  /* overflow-x: hidden;
-  /* overflow-y: hidden; */ 
+  /* width: 1440px;
+  height: 800px; */
+  align-content: center;
+   overflow-x: hidden;
+   overflow-y: hidden;
+  /* overflow: hidden; */
 }
 
 /* Phone Body */
@@ -22,7 +23,6 @@ main {
   /* margin-left: 350px; */
   margin-left: 271.5px;
   background-color: #ffffff;
-  /* background-color: red; */
   box-shadow: 0 30px 60px 10px rgba(62, 39, 83, 0.251202);
   border-radius: 30px;
   z-index: 1;
