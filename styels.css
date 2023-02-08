@@ -5,7 +5,7 @@
 }
 
 body {
-   font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif;
   background-color: hsl(270, 20%, 96%);
   overflow: hidden;
 }
@@ -452,7 +452,6 @@ body {
 /* OVAL SHAPES */
 .purple-oval {
   width: 510px;
-  height: 1018px;
   height: 950px;
   position: absolute;
   background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
@@ -470,8 +469,87 @@ body {
   left: 1080px;
   top: 100px;
   border-radius: 255px;
-  opacity: 0.1;
+  opacity: 0.03;
+}
+
+/* media query */
+@media only screen and (max-width: 375px) {
+  body {
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(270, 20%, 96%);
+    overflow: hidden;
+  }
+
+  /* Oval shape */
+  .purple-oval {
+    width: 510px;
+    height: 900px;
+    position: absolute;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    left: -322px;
+    top: -318px;
+    border-radius: 255px;
+  }
+
+  .white-oval {
+    width: 510px;
+    height: 1018px;
+    position: absolute;
+    bottom: -318px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    left: 250px;
+    top: 460px;
+    /* top: 1445px; */
+    border-radius: 255px;
+    opacity: 0.03;
+  }
+
+
+    /* Phone Body */
+    .Phone {
+      width: 247px;
+      height: 505px;
+      margin-left: 70px;
+      margin-top: -400px ;
+      background-color: #ffffff;
+      box-shadow: 0 30px 60px 10px rgba(62, 39, 83, 0.251202);
+      border-radius: 30px;
+      z-index: 1;
+      position: absolute;
+    }
+/* DESCRIPTION */
+        .Description {
+          margin-top: 600px;
+          margin-left: -600px;
+          width: 311px;
+          height: 239px;
+        }
+
+        .Description h4{
+          width: 311px;
+          height: 47px;
+        }
+
+        .Description p{
+          width: 311px;
+          height: 168px;
+
+        }
+
+
+
+
+
+
+
+
+/* footer */
+.attribution{
+  font-size: 11px;
+    text-align: center;
+    margin-top: 100%;
+    color: hsl(228, 45%, 44%);
 }
 
 
-
+}
