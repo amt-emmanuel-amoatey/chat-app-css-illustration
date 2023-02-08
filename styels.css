@@ -488,6 +488,19 @@ body {
   opacity: 0.03;
 }
 
+
+.msg{
+      overflow: hidden;
+      opacity: 0;
+      transition: opacity 400ms ease, transform 400ms ease;
+}
+
+.show {
+  overflow: visible;
+  opacity: 1;
+}
+
+
 /* media query */
 @media only screen and (max-width: 375px) {
   body {
