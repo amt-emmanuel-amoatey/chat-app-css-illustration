@@ -510,7 +510,10 @@ body {
       width: 247px;
       height: 505px;
       margin-left: 70px;
-      margin-top: -400px ;
+      margin-top: -500px;
+      margin-top: -600px;
+      /* margin-top: -550px; */
+
       background-color: #ffffff;
       box-shadow: 0 30px 60px 10px rgba(62, 39, 83, 0.251202);
       border-radius: 30px;
@@ -520,9 +523,14 @@ body {
 /* DESCRIPTION */
         .Description {
           margin-top: 600px;
-          margin-left: -600px;
+          margin-top: 800px;
+          margin-top: 700px;
+
+          margin-left: -700px;
           width: 311px;
           height: 239px;
+          text-align: center;
+        
         }
 
         .Description h4{
@@ -547,7 +555,8 @@ body {
 .attribution{
   font-size: 11px;
     text-align: center;
-    margin-top: 100%;
+    /* margin-top: 100%; */
+    margin-top: 50%;
     color: hsl(228, 45%, 44%);
 }
 
