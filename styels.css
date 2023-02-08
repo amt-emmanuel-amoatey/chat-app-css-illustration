@@ -73,6 +73,9 @@ body {
   margin-top: 35px;
   margin-left: 15px;
 }
+.avatar:hover{
+  transform: scale(1.19);
+}
 
 .Profile-wrapper {
   width: 196px;
@@ -186,6 +189,9 @@ body {
   box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
   border-radius: 10px;
 }
+.DogPhoto1:hover{
+  transform: scale(1.19);
+}
 
 .DogPhoto2 {
   position: absolute;
@@ -196,6 +202,9 @@ body {
   box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
   border-radius: 10px;
 }
+.DogPhoto2:hover{
+  transform: scale(1.19);
+}
 
 .DogPhoto3 {
   position: absolute;
@@ -205,6 +214,9 @@ body {
   top: 200px;
   box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
   border-radius: 10px;
+}
+.DogPhoto3:hover{
+  transform: scale(1.19);
 }
 
 /* Chat Display */
@@ -389,7 +401,7 @@ body {
   border-radius: 16.9544px;
 }
 
-.Type-message {
+.Type-message,input {
   position: absolute;
   width: 92.23px;
   height: 11px;
@@ -415,6 +427,9 @@ body {
   right: 2.22%;
   top: 14.25%;
   bottom: 14.52%;
+}
+.submit-circle:hover{
+  transform: scale(1.19);
 }
 
 .submit-arrow {
